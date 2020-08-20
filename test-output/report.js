@@ -1,4 +1,44 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("LoginFeature.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Background.feature");
+formatter.feature({
+  "line": 1,
+  "name": "My Backgraund test",
+  "description": "",
+  "id": "my-backgraund-test",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 3,
+  "name": "",
+  "description": "",
+  "id": "my-backgraund-test;",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 4,
+  "name": "Open the browser",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "I navigate to Facebook page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "BackgroundSteps.open_the_browser()"
+});
+formatter.result({
+  "duration": 7172957500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "BackgroundSteps.i_navigate_to_Google_page()"
+});
+formatter.result({
+  "duration": 3739375800,
+  "status": "passed"
+});
+formatter.uri("LoginFeature.feature");
 formatter.feature({
   "line": 1,
   "name": "Login Succesfully",
@@ -44,28 +84,28 @@ formatter.match({
   "location": "LoginSteps.user_is_on_login_page()"
 });
 formatter.result({
-  "duration": 10183995500,
+  "duration": 9040849600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.enter_valid_user_name_and_password()"
 });
 formatter.result({
-  "duration": 313562700,
+  "duration": 382554900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.clicked_on_login_button()"
 });
 formatter.result({
-  "duration": 177150300,
+  "duration": 249667300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_redirected_to_inbox()"
 });
 formatter.result({
-  "duration": 8581715400,
+  "duration": 8029215900,
   "status": "passed"
 });
 });
