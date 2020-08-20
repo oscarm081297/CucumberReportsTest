@@ -1,0 +1,5 @@
+pages\LoginPage.class
+runners\Runner.class
+steps_definitions\BackgroundSteps.class
+steps_definitions\LoginSteps.class
+pages\MainPage.class

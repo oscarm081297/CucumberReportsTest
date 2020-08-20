@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "login-succesfully;check-login-is-successful-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10183995500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 313562700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter valid user name and password",
+            "match": {
+              "location": "LoginSteps.enter_valid_user_name_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 177150300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clicked on login button",
+            "match": {
+              "location": "LoginSteps.clicked_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8581715400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User redirected to mainpage",
+            "match": {
+              "location": "LoginSteps.user_redirected_to_inbox()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Login Succesfully",
+    "description": "",
+    "id": "login-succesfully",
+    "keyword": "Feature",
+    "uri": "LoginFeature.feature"
+  }
+]
