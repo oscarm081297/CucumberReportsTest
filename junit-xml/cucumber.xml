@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="28.614621">
-<testcase classname="My Backgraund test" name="" time="10.912333">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="54.570089">
+<testcase classname="My Backgraund test" name="" time="9.648247">
 <system-out><![CDATA[Given Open the browser......................................................passed
 When I navigate to Facebook page............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login Succesfully" name="Check login is successful with valid credentials" time="17.702288">
+<testcase classname="Login Succesfully" name="Check login is successful with valid credentials" time="44.921842">
 <system-out><![CDATA[Given user is on login page.................................................passed
 When Enter valid user name and password.....................................passed
 And clicked on login button.................................................passed

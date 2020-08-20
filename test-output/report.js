@@ -28,14 +28,14 @@ formatter.match({
   "location": "BackgroundSteps.open_the_browser()"
 });
 formatter.result({
-  "duration": 7172957500,
+  "duration": 7195603200,
   "status": "passed"
 });
 formatter.match({
   "location": "BackgroundSteps.i_navigate_to_Google_page()"
 });
 formatter.result({
-  "duration": 3739375800,
+  "duration": 2452644100,
   "status": "passed"
 });
 formatter.uri("LoginFeature.feature");
@@ -84,28 +84,28 @@ formatter.match({
   "location": "LoginSteps.user_is_on_login_page()"
 });
 formatter.result({
-  "duration": 9040849600,
+  "duration": 33783982300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.enter_valid_user_name_and_password()"
 });
 formatter.result({
-  "duration": 382554900,
+  "duration": 542172400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.clicked_on_login_button()"
 });
 formatter.result({
-  "duration": 249667300,
+  "duration": 352653300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_redirected_to_inbox()"
 });
 formatter.result({
-  "duration": 8029215900,
+  "duration": 10243033700,
   "status": "passed"
 });
 });
